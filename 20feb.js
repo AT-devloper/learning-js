@@ -5,4 +5,4 @@ function google (){
     return"company"
 }
 
-document.write(google()) 
+document.write (google()) 

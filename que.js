@@ -14,9 +14,9 @@ console.log(d)
 
 
 
-let num1 = parseInt(prompt("enter number for evenodd"))
+let num = parseInt(prompt("enter number for evenodd"))
 
-if (num1%2==0){
+if (num%2==0){
     console.log("even")
 }
 

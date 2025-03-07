@@ -15,7 +15,7 @@ function validate(){
         document.querySelector('#email').focus()
         return false
     }
-    else if(!(email.includes('@gmail.com'))){
+    else if(!(email.includes('@gmail.com'))||(yahoo.includes('yahoo.com'))){
         alert("Enter email with @gmail.com")
         document.querySelector('#email').focus()
         return false
@@ -31,6 +31,12 @@ function validate(){
         alert("Enter your age in number")
         document.querySelector('#age').focus()
         return false 
+    }
+    else if (age.length<100){
+        alert("please enter your age under 100 years")
+        document.querySelector('#age').focus()
+        return false 
+
     }
 
 

@@ -4,7 +4,7 @@ for(let i=0 ;i<s;i++){
     e[i]=prompt("Enter element's = ");
 }
 
-let el = e.slice(1,++s)
+let el = e.slice(1,s)
 for( let vl of el){
     if(vl%2==0){
         console.log("even = ", vl );

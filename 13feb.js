@@ -10,6 +10,6 @@
 //console.log(num+num1);
 
 
-let num = parseInt( prompt("enter first number"))
-let num1 = parseInt(prompt("enter first number"))
+let num = parseInt(prompt("enter first number"))
+let num1 = parseInt(prompt("enter second number"))
 console.log(num+num1);

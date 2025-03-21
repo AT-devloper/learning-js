@@ -32,7 +32,7 @@ let multi = ("")
 
 add = f+s
 multi = add*add
-document.write((add))"/n"
+document.write((add) )
 document.write(multi)
 
 

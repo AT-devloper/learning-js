@@ -37,6 +37,11 @@ function fdata(){
         document.querySelector('#pass').focus() 
         return false
     }
+    else if (pass.langth>5 || pass.langth<5){
+        alert("Password in length must 5")
+        document.querySelector('#pass').focus() 
+        return false
+    }
 
    
 

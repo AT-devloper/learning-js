@@ -33,7 +33,7 @@
 let person={
     name:"ayush",
     city:"bpl",
-    contect:1234
+    contect: 1234
 }
 
 // for (let k in person){

@@ -22,7 +22,14 @@ let ar=[
 let arname=ar.map((e)=>{return e.name})
 console.log(arname);
 
+let arage=ar.map((e)=>{return e.age})
+console.log(arage);
+
+
 //filter function
 
-let fl =ar.filter((e)=>{return e.age>23})
-console.log(fl);
+let f1 =ar.filter((e)=>{return e.age>23})
+console.log(f1);
+
+let f2=ar.filter((e)=>{return e.age<24})
+console.log(f2);

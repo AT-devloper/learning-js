@@ -48,6 +48,6 @@
 // let o = Object.values(person) //for single value
 // document.write(o[2]);
 
-let {name,age,contact}={name:"ayush",age:23,contact:23456}
+let {name,age,contact}={name:"ayush",age:23,contact:23456} //de-structuring
 
 console.log(name);

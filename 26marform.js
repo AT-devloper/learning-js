@@ -2,8 +2,8 @@ function data(){
     let person={
         Name : document.querySelector("#name").value,
         Contact : document.querySelector("#cont").value,
+        City : document.querySelector("#city").value,
         Pass : document.querySelector("#pass").value,
-        City : document.querySelector("#city").value
     }
 
     localStorage.setItem("udata",JSON.stringify(person))

@@ -7,14 +7,16 @@ function dt(){
     
     localStorage.setItem("usdata",JSON.stringify(uda))
 
-    let user = JSON.parse(localStorage.getItem('usdata'))
+    let user=JSON.parse(localStorage.getItem('usdata'))
 
-    if(Name==Lname && Pass == Lpass){
-        location.href="27marstri.html"
+    console.log(user.Lname)
+    console.log(user.Lpass)
+
+    if(Name==Lname && Pass==Lpass){
+        alert("Success")
     }
-    else {
-        alert("invalid !!")
-    }
+    
+    else{alert("Invalid !! ")}
 
     return false
 }

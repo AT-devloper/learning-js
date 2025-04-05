@@ -19,11 +19,21 @@ let fetchData= async()=>{
         <td>${e.contact}</td>
         <td>${e.person}</td>
         <td>${e.price}</td>
+        <td onclick="Del('${e.id}')"> Delete </td>
         
         </tr>
         
         `
     })
+
 }
+    let Del=(id)=>{
+            let url=`http://localhost:3000/hotel/${id}`
+
+            fetch(url,{method:"DELETE"})
+    }
+
+
+
 
 fetchData()

@@ -1,28 +1,20 @@
 {
-    "hotel":[
-        {
-            "name":"Ayush",
-            "age":23,
-            "contact":"12345",
-            "person":4,
-            "price":2000
-        },
-        {
-            "name":"Ayu",
-            "age":24,
-            "contact":"24680",
-            "person":3,
-            "price":1500
-        },
-        {
-            "name":"yush",
-            "age":26,
-            "contact":"13579",
-            "person":2,
-            "price":1000
-        }
-    ]
-
-    
+  "hotel": [
+    {
+      "name": "Ayush",
+      "age": 23,
+      "contact": "12345",
+      "person": 4,
+      "price": 2000,
+      "id": "7fa6"
+    },
+    {
+      "name": "Ayu",
+      "age": 24,
+      "contact": "24680",
+      "person": 3,
+      "price": 1500,
+      "id": "a3e6"
+    }
+  ]
 }
-

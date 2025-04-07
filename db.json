@@ -15,6 +15,46 @@
       "person": 3,
       "price": 1500,
       "id": "a3e6"
+    },
+    {
+      "name": "Aush",
+      "age": 25,
+      "contact": "12345078",
+      "person": 3,
+      "price": 1500
+     
+    },
+    {
+      "name": "Ayus",
+      "age": 23,
+      "contact": "1239045",
+      "person": 2,
+      "price": 1000
+     
+    },
+    {
+      "name": "Ayh",
+      "age": 27,
+      "contact": "12345",
+      "person": 6,
+      "price": 3000
+      
+    },
+    {
+      "name": "yas",
+      "age": 25,
+      "contact": "1222345",
+      "person": 5,
+      "price": 2500
+      
+    },
+    {
+      "name": "Ash",
+      "age": 28,
+      "contact": "1237845",
+      "person": 1,
+      "price": 500
+     
     }
   ]
 }

@@ -20,7 +20,7 @@ let fetchData= async()=>{
         <td>${e.person}</td>
         <td>${e.price}</td>
         <td onclick="Del('${e.id}')"> Delete </td>
-        <td onclick="Ffill('${e.id}')"> Update </td>
+        <td onclick="Ffill('${e.id}')"> Edit </td>
         
         </tr>
         
@@ -81,7 +81,7 @@ let fetchData= async()=>{
         Contact : <input type="text" id="upcont" value="${data.contact}"> <br><br>
         Person : <input type="text" id="upper" value="${data.person}"> <br><br>
         
-        <input type="submit" value="Update" onclick="return Fupdate('${data.id}')">
+        <input type="submit" value="Edited" onclick="return Fupdate('${data.id}')">
       
         `
 

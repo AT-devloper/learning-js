@@ -17,46 +17,6 @@
       "id": "a3e6"
     },
     {
-      "name": "Aush",
-      "age": "25",
-      "contact": "12345078",
-      "person": "7",
-      "price": 3500,
-      "id": "1010"
-    },
-    {
-      "name": "Ayus",
-      "age": 23,
-      "contact": "1239045",
-      "person": 2,
-      "price": 1000,
-      "id": "3f02"
-    },
-    {
-      "name": "Ayh",
-      "age": 27,
-      "contact": "12345",
-      "person": 6,
-      "price": 3000,
-      "id": "d8e6"
-    },
-    {
-      "name": "yas",
-      "age": 25,
-      "contact": "1222345",
-      "person": 5,
-      "price": 2500,
-      "id": "3a85"
-    },
-    {
-      "name": "Ash",
-      "age": 28,
-      "contact": "1237845",
-      "person": 1,
-      "price": 500,
-      "id": "ac1e"
-    },
-    {
       "id": "a625",
       "name": "Ayush p",
       "age": "22",
@@ -65,11 +25,11 @@
       "price": 1000
     },
     {
-      "name": "U new ",
-      "age": "21",
+      "name": " new ",
+      "age": "20",
       "contact": "0192837465",
-      "person": "4",
-      "price": 2000,
+      "person": "5",
+      "price": 2500,
       "id": "55c4"
     },
     {
@@ -79,6 +39,14 @@
       "contact": "123456",
       "person": "3",
       "price": 1500
+    },
+    {
+      "id": "3b74",
+      "name": "AT",
+      "age": "5",
+      "contact": "924",
+      "person": "2",
+      "price": 1000
     }
   ]
 }

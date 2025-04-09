@@ -4,19 +4,13 @@ function dt(){
         Lpass : document.querySelector("#pass").value,
 
     }
-    
-    localStorage.setItem("usdata",JSON.stringify(uda))
+    let user=JSON.parse(localStorage.getItem('udata'))
 
-    let user=JSON.parse(localStorage.getItem('usdata'))
-
-    console.log(user.Lname)
-    console.log(user.Lpass)
-
-    if(Name==Lname && Pass==Lpass){
-        alert("Success")
+    if(Name==user.Lname && Pass==user.Lpass){
+        alert("WELCOME USER")
     }
     
-    else{alert("Invalid !! ")}
+    else{alert("Invalid User")}
 
     return false
 }

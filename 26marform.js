@@ -1,4 +1,4 @@
-function data(){
+function sin(){
     let person={
         Name : document.querySelector("#name").value,
         Contact : document.querySelector("#cont").value,
@@ -7,12 +7,27 @@ function data(){
     }
 
     localStorage.setItem("udata",JSON.stringify(person))
+    let user =JSON.parse(localStorage.getItem('udata'))
 
-    let user = JSON.parse(localStorage.getItem('udata'))
-
-    console.log(user.Name)
-    console.log(user.Pass)
+    console.log(user)
 
     location.href="login.html"
+    return false
+}
+
+function lin(){
+       let Lname = document.querySelector("#lname").value
+       let Lpass = document.querySelector("#lpass").value
+
+       let user =JSON.parse(localStorage.getItem('udata'))
+
+    if(user.Name==Lname && user.Pass==Lpass){
+        alert("WELCOME USER");
+        console.log(user.Name , user.Pass)
+
+    }
+    
+    else{alert("Invalid User")}
+
     return false
 }

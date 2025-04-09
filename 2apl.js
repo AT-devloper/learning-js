@@ -85,18 +85,18 @@ let fetchData= async()=>{
       
         `
 
-
+    }
+    
+let Fupdate =(id)=>{
+        let inpname = document.querySelector('#upname').value
+        let inpage = document.querySelector("#upage").value
+        let inpcont = document.querySelector("#upcont").value
+        let inpper = document.querySelector("#upper").value
         
-let Fupdate =()=>{
-        let inpname = document.querySelector('#name').value
-        let inpage = document.querySelector("#age").value
-        let inpcont = document.querySelector("#cont").value
-        let inpper = document.querySelector("#per").value
-        
-        let url="http://localhost:3000/hotel"
+        let url=`http://localhost:3000/hotel/${id}`
 
         fetch(url ,{
-            method :"POST",
+            method :"PUT",
             headers :{
                 "Content-Type":"appliction/json"
             },
@@ -110,6 +110,11 @@ let Fupdate =()=>{
                 })
         })
 }
-}
+
+
+
+    
+
+
 
 // fetchData()

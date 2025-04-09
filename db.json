@@ -18,10 +18,10 @@
     },
     {
       "name": "Aush",
-      "age": 25,
+      "age": "25",
       "contact": "12345078",
-      "person": 3,
-      "price": 1500,
+      "person": "7",
+      "price": 3500,
       "id": "1010"
     },
     {
@@ -57,14 +57,6 @@
       "id": "ac1e"
     },
     {
-      "id": "f3f9",
-      "name": "Ayush poddar",
-      "age": "25",
-      "contact": "1234567890",
-      "person": "1",
-      "price": 500
-    },
-    {
       "id": "a625",
       "name": "Ayush p",
       "age": "22",
@@ -79,6 +71,14 @@
       "person": "4",
       "price": 2000,
       "id": "55c4"
+    },
+    {
+      "id": "ce98",
+      "name": "new 1",
+      "age": "25",
+      "contact": "123456",
+      "person": "3",
+      "price": 1500
     }
   ]
 }

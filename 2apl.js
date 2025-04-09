@@ -111,10 +111,4 @@ let Fupdate =(id)=>{
         })
 }
 
-
-
-    
-
-
-
 // fetchData()

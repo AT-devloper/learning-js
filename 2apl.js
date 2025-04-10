@@ -42,7 +42,6 @@ let fetchData= async()=>{
         // let inadd=document.querySelector("#add").value
         // let incountry=document.querySelector("#country").value
     
-
         let url="http://localhost:3000/hotel"
 
         fetch(url ,{
@@ -58,7 +57,7 @@ let fetchData= async()=>{
                     "price":inpper*500,
                     // "address":inadd,
                     // "country":incountry
-                })
+            })
         })
 
         location.href="2apl.html"
